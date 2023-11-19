@@ -15,5 +15,7 @@ public class Main {
 
         myLinkedList.printList();
 
+        myLinkedList.testCommit();
+
     }
 }
