@@ -59,4 +59,8 @@ public class LinkedList {
         length ++;
     }
 
+    public void dummyCommit(){
+        System.out.println("This is a dummy commit to check");
+    }
+
 }
