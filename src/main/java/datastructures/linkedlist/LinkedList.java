@@ -19,7 +19,7 @@ public class LinkedList {
         }
     }
 
-    //Method to intialize the Node
+    //Method to intialize the Node or Constructor to intialize the LinkedList Class
     public LinkedList(int value){
         Node newNode = new Node(value);
         head = newNode;
@@ -65,7 +65,7 @@ public class LinkedList {
         Node temp = head;
         Node pre = head;
         while(temp.next != null){
-            pre =  head;
+            pre =  temp;
             temp = temp.next;
         }
         tail = pre;
